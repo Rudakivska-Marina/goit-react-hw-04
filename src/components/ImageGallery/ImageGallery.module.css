@@ -1,0 +1,28 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 15px;
+  justify-content: center;
+  padding: 0px;
+  margin: 15px 0px;
+}
+
+.card {
+  position: relative;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  transition: transform 250ms ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.image {
+  object-fit: cover;
+  width: 290px;
+  height: 200px;
+}
